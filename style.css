@@ -4,15 +4,12 @@
     font-family: 'Poppins, sans-serif';
     box-sizing: border-box;
 }
-body{
-    background: black;
 
-}
 .card
 {
     width:90%;
     max-width: 470px;
-    background :linear-gradient(135deg,#00feba,#5b548a);
+    background :black;
     color:#fff;
     margin :100px auto 0;
     border-radius: 20px;
@@ -26,6 +23,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
 }
 
 .search input
